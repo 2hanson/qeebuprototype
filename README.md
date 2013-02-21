@@ -14,3 +14,11 @@ Additional open source libraries used in this app include:
     <li><a href="jquery.com" target="_blank">jQuery</a></li>
     <li><a href="cubiq.org/iscroll" target="_blank">iScroll</a></li>
 </ul>
+
+## Contact
+Hanson Yu
+
+- https://twitter.com/2hanson
+- https://github.com/2hanson
+- http://www.linkedin.com/in/hangzhongyu
+- hangzhong.yu@gmail.com
