@@ -205,6 +205,33 @@ body {
     border:none;
 }
 
+#agendabtn {
+    position: relative;
+    left: -30px;
+    text-align: center;
+    width:68px;
+    height:68px;
+    padding:1em;
+}
+
+#survybtn {
+    position: relative;
+    left: -10px;
+    text-align: center;
+    width:68px;
+    height:68px;
+    padding:1em;
+}
+
+#noticebtn {
+    position: relative;
+    left: 10px;
+    text-align: center;
+    width:68px;
+    height:68px;
+    padding:1em;
+}
+
 @media screen and (max-device-width : 767px) {
     #homeView {
         background: url('images/background_480.jpg');
@@ -234,14 +261,6 @@ body {
     border-radius: 10px;
     padding-top:5px;
     padding-bottom:5px;
-}
-
-
-
-#selectCuisine {
-    text-align: center;
-    width:100%;
-    padding:0.5em;
 }
 
 .searchBackground {
