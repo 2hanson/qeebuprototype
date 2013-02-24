@@ -11,7 +11,9 @@ window.HomeView = Backbone.View.extend({
     },  
 
     events:{
-        "click #agendabtn":"agendabtnClicked"
+        "click #agendabtn":"agendabtnClicked",
+        "click #survybtn":"survybtnClicked",
+        "click #noticebtn":"noticebtnClicked"
     },
     
     render:function (eventName) {
@@ -22,6 +24,18 @@ window.HomeView = Backbone.View.extend({
     },
 
     agendabtnClicked:function () {
+
+        var view = new AgendaView();
+        window.viewNavigator.pushView( view );
+    },
+
+   survybtnClicked:function () {
+
+        var view = new AgendaView();
+        window.viewNavigator.pushView( view );
+    },
+
+   noticebtnClicked:function () {
 
         var view = new AgendaView();
         window.viewNavigator.pushView( view );
