@@ -12,8 +12,11 @@ window.HomeView = Backbone.View.extend({
 
     events:{
         "click #agendabtn":"agendabtnClicked",
+        "click #speakerbtn":"speakerbtnClicked",
+        "click #noticebtn":"noticebtnClicked",
+        "click #mapbtn":"mapbtnClicked",
         "click #survybtn":"survybtnClicked",
-        "click #noticebtn":"noticebtnClicked"
+        "click #contactbtn":"contactbtnClicked"
     },
     
     render:function (eventName) {
@@ -29,13 +32,30 @@ window.HomeView = Backbone.View.extend({
         window.viewNavigator.pushView( view );
     },
 
+   speakerbtnClicked:function () {
+        var view = new SpeakerView();
+        window.viewNavigator.pushView( view );
+    },
+
+   noticebtnClicked:function () {
+
+        var view = new AgendaView();
+        window.viewNavigator.pushView( view );
+    },
+        
+    mapbtnClicked:function () {
+
+        var view = new AgendaView();
+        window.viewNavigator.pushView( view );
+    },
+
    survybtnClicked:function () {
 
         var view = new AgendaView();
         window.viewNavigator.pushView( view );
     },
 
-   noticebtnClicked:function () {
+   contactbtnClicked:function () {
 
         var view = new AgendaView();
         window.viewNavigator.pushView( view );

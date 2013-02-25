@@ -2,7 +2,7 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 
 //just for web dev
-//loadTemplates( appTemplatesLoaded );
+loadTemplates( appTemplatesLoaded );
 
 
 function onDeviceReady() {
@@ -18,7 +18,7 @@ function appTemplatesLoaded() {
     var homeView = new HomeView();
     
     //Setup the ViewNavigator
-    window.viewNavigator = new ViewNavigator( 'body' );	
+    window.viewNavigator = new ViewNavigator( 'body' );
     window.viewNavigator.pushView( homeView );
     document.addEventListener("backbutton", onBackKey, false);
 }

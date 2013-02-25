@@ -214,7 +214,7 @@ body {
     padding:1em;
 }
 
-#survybtn {
+#speakerbtn {
     position: relative;
     left: -10px;
     text-align: center;
@@ -224,6 +224,33 @@ body {
 }
 
 #noticebtn {
+    position: relative;
+    left: 10px;
+    text-align: center;
+    width:68px;
+    height:68px;
+    padding:1em;
+}
+
+#mapbtn {
+    position: relative;
+    left: -30px;
+    text-align: center;
+    width:68px;
+    height:68px;
+    padding:1em;
+}
+
+#survybtn {
+    position: relative;
+    left: -10px;
+    text-align: center;
+    width:68px;
+    height:68px;
+    padding:1em;
+}
+
+#contactbtn {
     position: relative;
     left: 10px;
     text-align: center;
