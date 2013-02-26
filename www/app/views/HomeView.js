@@ -27,7 +27,6 @@ window.HomeView = Backbone.View.extend({
     },
 
     agendabtnClicked:function () {
-
         var view = new AgendaView();
         window.viewNavigator.pushView( view );
     },
@@ -38,25 +37,21 @@ window.HomeView = Backbone.View.extend({
     },
 
    noticebtnClicked:function () {
-
         var view = new NoticeView();
         window.viewNavigator.pushView( view );
     },
         
     mapbtnClicked:function () {
-
         var view = new AgendaView();
         window.viewNavigator.pushView( view );
     },
 
    survybtnClicked:function () {
-
         var view = new SurvyView();
         window.viewNavigator.pushView( view );
     },
 
    contactbtnClicked:function () {
-
         var view = new AgendaView();
         window.viewNavigator.pushView( view );
     }

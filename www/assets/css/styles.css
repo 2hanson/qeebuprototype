@@ -25,7 +25,6 @@ body {
 }
 
 
-
 .subtext {
     font-size:0.85em;
     font-color: #888;
@@ -91,7 +90,7 @@ body {
 	border-bottom:none;
     background-color: white;
 	
-    background-image:url('images/more_disclosure.png');
+    background-image:url('../images/more_disclosure.png');
     background-position:right center;
     background-repeat:no-repeat;
 }
@@ -102,7 +101,7 @@ body {
 	border-top:1px solid #094C99;
 	background-color: #00698C;
     font-weight: bold;
-    background-image:url('images/more_disclosure_white.png');
+    background-image:url('../images/more_disclosure_white.png');
 }
 
 
@@ -131,7 +130,7 @@ body {
     position:absolute;
     top:8px;
     left:5px;
-    -webkit-border-image:url("images/iOSbackButton.png") 0 4 0 12;
+    -webkit-border-image:url("../images/iOSbackButton.png") 0 4 0 12;
     border-width:0 4px 0 12px;
 
     color:white;
@@ -143,7 +142,7 @@ body {
 .viewNavigator_backButton_active,
 .viewNavigator_backButton:active {
     background: none;
-    -webkit-border-image:url("images/iOSbackButton_active.png") 0 4 0 12;
+    -webkit-border-image:url("../images/iOSbackButton_active.png") 0 4 0 12;
 }
 
 .viewNavigator_content {
@@ -255,13 +254,13 @@ body {
 
 @media screen and (max-device-width : 767px) {
     #homeView {
-        background: url('images/background_480.jpg');
+        background: url('../images/background_480.jpg');
     }
 }
 
 @media screen and (min-device-width : 768px) {
     #homeView {
-        background: url('images/background_1024.jpg');
+        background: url('../images/background_1024.jpg');
     }
 }
 
@@ -292,13 +291,13 @@ body {
 
 @media screen and (max-device-width : 767px) {
     .searchBackground {
-        background: url('images/background_480.jpg');
+        background: url('../images/background_480.jpg');
     }
 }
 
 @media screen and (min-device-width : 768px) {
     .searchBackground {
-        background: url('images/background_1024.jpg');
+        background: url('../images/background_1024.jpg');
     }
 }
 
@@ -322,7 +321,7 @@ body {
 }
 
 .searchGraphic {
-    background: url('images/search_big.png') no-repeat;
+    background: url('../images/search_big.png') no-repeat;
     width:325px;
     height:325px;
     position:absolute;
@@ -338,11 +337,11 @@ body {
 
 
 .header {
-    background: url('images/lettuce.jpg') no-repeat;
+    background: url('../images/lettuce.jpg') no-repeat;
 }
 
 .header h1 {
-    background: url('images/lettuce.jpg') no-repeat;
+    background: url('../images/lettuce.jpg') no-repeat;
     margin:0px;
     padding:10px 10px;
     color: white;
@@ -360,7 +359,7 @@ body {
     bottom:0px;
     left:0px;
     /*background: rgba(200,200,200,0.12); */
-    background: url('images/bar_background.png');
+    background: url('../images/bar_background.png');
     border-right: 1px solid rgba(150,150,150,0.16);
     top:0px;
     z-index: 0;
