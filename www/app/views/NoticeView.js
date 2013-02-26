@@ -9,7 +9,7 @@ window.NoticeView = Backbone.View.extend({
     initialize: function(options) {
         this.render();
         this.view = this.$el;
-        this.addNotices(5);
+        this.addNotices(35);
     },
 
     events:{
@@ -27,6 +27,7 @@ window.NoticeView = Backbone.View.extend({
     {
         while (num >= 0)
         {
+            //this.$el.find( "#noticeList" ).append("<li>item 1<ul><li>sub item 1-a</li></ul></li>");
             this.$el.find( "#noticeList" ).append("<li>"+num+"</li>");
             --num;
         }
@@ -40,10 +41,10 @@ window.NoticeView = Backbone.View.extend({
             target=target.parent();
         }
         
+        //$target.children().toggle();
         target.addClass( "listSelected" );
-
-
-        var view = new NoticeDetailView();
+        var view = new NoticeDetailView( {content: this.$el.find( "li" ).index(target)} );
+        // var view = new NoticeDetailView( {content:target.text()} );
         window.viewNavigator.pushView( view );
     }
 

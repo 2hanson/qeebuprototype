@@ -9,6 +9,8 @@ window.NoticeDetailView = Backbone.View.extend({
     initialize: function(options) {
         this.render();
         this.view = this.$el;
+        this.valueString = options.content;
+        this.showContent();
     },
     
     render:function (eventName) {
@@ -16,6 +18,11 @@ window.NoticeDetailView = Backbone.View.extend({
         var self = this;
 
         return this;
+    },
+
+    showContent:function (content)
+    {
+        this.$el.find( "#content" ).append("<p>"+this.valueString+"</p>");
     }
 
 });
