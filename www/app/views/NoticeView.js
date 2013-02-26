@@ -46,6 +46,11 @@ window.NoticeView = Backbone.View.extend({
         var view = new NoticeDetailView( {content: this.$el.find( "li" ).index(target)} );
         // var view = new NoticeDetailView( {content:target.text()} );
         window.viewNavigator.pushView( view );
+                                         
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        event.preventDefault();
+        event.cancelBubble();
     }
 
 });
