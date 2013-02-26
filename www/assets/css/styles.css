@@ -208,8 +208,7 @@ body {
 #agendabtn {
     position: relative;
     left: -30px;
-    text-align: center;
-    width:68px;
+    width:72px;
     height:68px;
     padding:1em;
 }
@@ -217,8 +216,7 @@ body {
 #speakerbtn {
     position: relative;
     left: -10px;
-    text-align: center;
-    width:68px;
+    width:72px;
     height:68px;
     padding:1em;
 }
@@ -226,8 +224,7 @@ body {
 #noticebtn {
     position: relative;
     left: 10px;
-    text-align: center;
-    width:68px;
+    width:72px;
     height:68px;
     padding:1em;
 }
@@ -235,8 +232,7 @@ body {
 #mapbtn {
     position: relative;
     left: -30px;
-    text-align: center;
-    width:68px;
+    width:72px;
     height:68px;
     padding:1em;
 }
@@ -244,8 +240,7 @@ body {
 #survybtn {
     position: relative;
     left: -10px;
-    text-align: center;
-    width:68px;
+    width:72px;
     height:68px;
     padding:1em;
 }
@@ -253,8 +248,7 @@ body {
 #contactbtn {
     position: relative;
     left: 10px;
-    text-align: center;
-    width:68px;
+    width:72px;
     height:68px;
     padding:1em;
 }

@@ -39,7 +39,7 @@ window.HomeView = Backbone.View.extend({
 
    noticebtnClicked:function () {
 
-        var view = new AgendaView();
+        var view = new NoticeView();
         window.viewNavigator.pushView( view );
     },
         
@@ -51,7 +51,7 @@ window.HomeView = Backbone.View.extend({
 
    survybtnClicked:function () {
 
-        var view = new AgendaView();
+        var view = new SurvyView();
         window.viewNavigator.pushView( view );
     },
 
