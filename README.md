@@ -1,3 +1,6 @@
+to-do: add fast click
+https://github.com/2hanson/fastclick.git
+
 qeebuprototype
 ==============
 
