@@ -13,12 +13,12 @@ function onDeviceReady() {
 function appTemplatesLoaded() {
     //console.log( "VIEW TEMPLATES LOADED" );
 
-    $("body").empty();
+    $("#app_content").empty();
 
     var homeView = new HomeView();
     
     //Setup the ViewNavigator
-    window.viewNavigator = new ViewNavigator( 'body' );
+    window.viewNavigator = new ViewNavigator( '#app_content' );
     window.viewNavigator.pushView( homeView );
     document.addEventListener("backbutton", onBackKey, false);
 }
