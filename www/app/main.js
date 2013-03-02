@@ -2,7 +2,7 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 
 //just for web dev
-loadTemplates( appTemplatesLoaded );
+//loadTemplates( appTemplatesLoaded );
 
 
 function onDeviceReady() {
@@ -13,12 +13,12 @@ function onDeviceReady() {
 function appTemplatesLoaded() {
     //console.log( "VIEW TEMPLATES LOADED" );
 
-    $("#app_content").empty();
+    $("#homeArea").empty();
 
     var homeView = new HomeView();
     
     //Setup the ViewNavigator
-    window.viewNavigator = new ViewNavigator( '#app_content' );
+    window.viewNavigator = new ViewNavigator( '#homeArea' );
     window.viewNavigator.pushView( homeView );
     document.addEventListener("backbutton", onBackKey, false);
 }

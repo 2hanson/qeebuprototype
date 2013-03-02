@@ -26,25 +26,42 @@
         
         <link rel="stylesheet" href="libs/app-ui/viewnavigator/viewnavigator.css" type="text/css" />
         <link rel="stylesheet" href="libs/css/activityIndicator.css" type="text/css" />
+        <!-- Bootstrap -->
         <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" type="text/css" />
+
         <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
     </head>
 
     <body>
-        <div class="viewNavigator_header">
+        <!-- <div class="viewNavigator_header">
             <div class="viewNavigator_header_title">qeebu prototype</div>
-        </div>
+        </div>-->
         
-        <div id="app_content">
-        </div>
+        <div class="tabbable tabs-below main">
+            <div class="tab-content">
+                <div class="tab-pane active" id="homeArea">
+                    <p>hello, I'm in Section homeArea. yuhangzhong</p>
+                </div>
+                <div class="tab-pane" id="bbsArea">
+                    <p>hello, I'm in Section bbsArea.</p>
+                </div>
+                <div class="tab-pane" id="contactArea">
+                    <p>Howdy, I'm in Section contactArea.</p>
+                </div>
+                <div class="tab-pane" id="setupArea">
+                    <p>Howdy, I'm in Section setupArea.</p>
+                </div>
+            </div> 
 
-        <div id="tab_bar">
-            <nav id="tab_bar_nav">
-                <a href="#!/homeArea" class="tab_home tab_btn button"><p><span>Home</span></p></a>
-                <a href="#!/bbsArea" class="tab_bbs tab_btn button"><p><span>BBS</span></p></a>
-                <a href="#!/contactArea" class="tab_contact tab_btn button"><p><span>Contact</span></p></a>
-                <a href="#!/setupArea" class="tab_setup tab_btn button"><p><span>Setup</span></p></a>
-            </nav>
+            <div class="footer">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#homeArea" data-toggle="tab">Section 1</a></li>
+                    <li><a href="#bbsArea" data-toggle="tab">Section 2</a></li>
+                    <li><a href="#contactArea" data-toggle="tab">Section 3</a></li>
+                    <li><a href="#setupArea" data-toggle="tab">Section 4</a></li>
+
+                </ul>
+            </div>
         </div>
     </body>
 
@@ -52,6 +69,7 @@
 
     <!-- LIBS -->
     <script src="libs/jquery-1.9.1.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.js"></script>
     <script src="libs/jquery.animate-enhanced.js"></script>
     <script src="libs/iscroll.js"></script>
     <script src="libs/underscore-min.js"></script>

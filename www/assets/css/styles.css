@@ -15,25 +15,12 @@ body {
     overflow: hidden;
     padding: 0px;
     margin: 0px;
-    background-color:#555;
 }
 
 #homeView {
     position:absolute;
     top:0px;
     bottom:0px;
-    left:0px;
-    right:0px;
-    padding: 0px;
-    margin: 0px;
-    display: block;
-    border:none;
-}
-
-#app_content {
-    position:absolute;
-    top:0px;
-    bottom:15%;
     left:0px;
     right:0px;
     padding: 0px;
@@ -114,3 +101,28 @@ body {
 	transform: translate3d(0,0,0);
 	-webkit-transform: translate3d(0,0,0);
 }
+
+.main {
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    border:none;
+}
+
+.app-content {
+    position:absolute;             /* position in the center of the screen */
+    left:2%;
+    top:10%; 
+}
+
+.footer {
+    position:absolute;             /* position in the center of the screen */
+    left:2%;
+    top:80%; 
+}
+
