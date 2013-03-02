@@ -30,15 +30,22 @@
         <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" type="text/css" />
 
         <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+        <!-- for eliminating the 300ms delay between a physical tap and the firing of a click event on mobile browsers. -->
+        <script src="libs/fastclick.js"></script>
+        <script type="application/javascript">
+            window.addEventListener('load', function () {
+                FastClick.attach(document.body);
+            }, false);
+        </script> 
     </head>
 
     <body>
         <!-- <div class="viewNavigator_header">
             <div class="viewNavigator_header_title">qeebu prototype</div>
         </div>-->
-        
+
         <div class="tabbable tabs-below main">
-            <div class="tab-content">
+            <div class="tab-content app-content">
                 <div class="tab-pane active" id="homeArea">
                     <p>hello, I'm in Section homeArea. yuhangzhong</p>
                 </div>
@@ -55,11 +62,9 @@
 
             <div class="footer">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#homeArea" data-toggle="tab">Section 1</a></li>
+                    <li><a href="#homeArea" data-toggle="tab">Section 1</a></li>
                     <li><a href="#bbsArea" data-toggle="tab">Section 2</a></li>
                     <li><a href="#contactArea" data-toggle="tab">Section 3</a></li>
-                    <li><a href="#setupArea" data-toggle="tab">Section 4</a></li>
-
                 </ul>
             </div>
         </div>

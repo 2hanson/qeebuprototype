@@ -115,14 +115,21 @@ body {
 }
 
 .app-content {
-    position:absolute;             /* position in the center of the screen */
-    left:2%;
-    top:10%; 
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding: 0px;
+    margin-bottom: 15%;
+    display: block;
+    border:none;
 }
+
 
 .footer {
     position:absolute;             /* position in the center of the screen */
     left:2%;
-    top:80%; 
+    bottom:0%; 
 }
 
