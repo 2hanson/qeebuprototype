@@ -17,6 +17,21 @@ body {
     margin: 0px;
 }
 
+#wrap { 
+    position:fixed; 
+    left:0; 
+    width:100%; 
+    top:0; 
+    height:100%; 
+}
+
+#iframe { 
+    display: block; 
+    width:80%; 
+    height:80%; 
+}
+
+
 #homeView {
     position:absolute;
     top:0px;
@@ -27,6 +42,25 @@ body {
     margin: 0px;
     display: block;
     border:none;
+}
+
+#agendaView {
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    border:none;
+}
+
+#iframe {
+  border-top: #c00 1px dotted;
+  border-right: #c00 2px dotted;
+  border-left: #c00 2px dotted;
+  border-bottom: #c00 4px dotted;
 }
 
 /*ViewNavigator Styles*/
