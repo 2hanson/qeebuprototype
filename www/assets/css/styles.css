@@ -17,6 +17,15 @@ body {
     margin: 0px;
 }
 
+#swipeview {
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background: #ddd;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
 #wrap { 
     position:fixed; 
     left:0; 
@@ -31,6 +40,10 @@ body {
     height:80%; 
 }
 
+#homeArea
+{
+    width: 100%;  
+}
 
 #homeView {
     position:absolute;
@@ -45,6 +58,7 @@ body {
 }
 
 #agendaView {
+    width: 100%;
     position:absolute;
     top:0px;
     bottom:0px;
