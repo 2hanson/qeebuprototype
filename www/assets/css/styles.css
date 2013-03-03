@@ -20,7 +20,7 @@ body {
 #swipeview {
     width: 100%;
     min-width: 320px;
-    height: 150px;
+    height: 100%;
     background: #ddd;
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
